@@ -24,6 +24,6 @@ Opens the page in your default browser, using port `8080`
 
 Uses `npm-run-all` to sequensially run Tailwind and then Live-Server
 
-Note that when it detects changess to the tailwind.css it trigges a refresh, but then you need to wait for Tailwind to finish building, and then updated style.css makes it refresh again. 
+Annoyance 1: When it detects changes to the tailwind.css it does trigger a refresh, but you need to wait for Tailwind to finish building, and then updated style.css makes it refresh again. 
 
-Annoyance: The logo svg tends to re-build itselt, covering the entire page, every time the css changes.
+Annoyance 2: The logo svg tends to re-build itselt, covering the entire page, every time the css changes.
