@@ -4,6 +4,8 @@
 
 `nmp i`
 
+Initializes npm and installs dependencies.
+
 ## Scripts
 
 ### Run Tailwind
