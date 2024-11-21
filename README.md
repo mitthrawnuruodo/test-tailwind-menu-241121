@@ -24,7 +24,7 @@ Opens the page in your default browser, using port `8080`
 
 `npm run dev`
 
-Uses `npm-run-all` to sequensially run Tailwind and then Live-Server
+Uses `npm-run-all` to sequensially run Tailwind and then Live-Server.
 
 Annoyance 1: When it detects changes to the tailwind.css it does trigger a refresh, but you need to wait for Tailwind to finish building, and then updated style.css makes it refresh again. 
 
@@ -36,4 +36,4 @@ Ignore any warnings in the tailwind.css file from the linter in VS Code, or inst
 
 ## Preview
 
-Checkout https://tailwind-menu.netlify.app/
+https://tailwind-menu.netlify.app/
