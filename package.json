@@ -1,0 +1,15 @@
+{
+  "name": "test-gemini-241121",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./tailwind.css -o ./style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
