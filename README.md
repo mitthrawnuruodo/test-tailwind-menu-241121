@@ -27,3 +27,11 @@ Uses `npm-run-all` to sequensially run Tailwind and then Live-Server
 Annoyance 1: When it detects changes to the tailwind.css it does trigger a refresh, but you need to wait for Tailwind to finish building, and then updated style.css makes it refresh again. 
 
 Annoyance 2: The logo svg tends to re-build itselt, covering the entire page, every time the css changes.
+
+## Warnings in VS Code
+
+Ignore any warnings in the tailwind.css file from the linter in VS Code, or install [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+
+## Preview
+
+Checkout https://tailwind-menu.netlify.app/
