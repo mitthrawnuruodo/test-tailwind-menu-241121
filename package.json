@@ -1,11 +1,11 @@
 {
-  "name": "test-gemini-241121",
+  "name": "test-tailwind-menu-241121",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "tailwind": "npx tailwindcss -i ./tailwind.css -o ./style.css --watch",
-    "start": "live-server --port=8080", 
-    "dev": "npm-s tailwind start"
+    "start": "live-server --port=8080 --wait=500", 
+    "dev": "run-p start tailwind"
   },
   "keywords": [],
   "author": "",
